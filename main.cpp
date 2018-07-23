@@ -82,13 +82,11 @@ int main(int argc, char **argv) {
     }
 
 
-
 //    for (int i = 0; i < op_list.size(); i++)
 //        cout << op_list[i]->op_num << " " << op_list[i]->arrival_time << " " << op_list[i]->track << '\n';
 
 
     //sched = new FLOOK();
-
 
     int cur_time = 0;
     int cur_track = 0;
@@ -103,8 +101,8 @@ int main(int argc, char **argv) {
 
     while (future_io < op_list.size() || cur_io != nullptr) {
 
-
         cur_time++;
+
 //        if (cur_time == 15000)
 //            break;
 
@@ -138,7 +136,6 @@ int main(int argc, char **argv) {
                 continue;
             }
 
-
             //cout << cur_time << " " << cur_io->op_num << " issue " << cur_io->track << " " << cur_track << '\n';
 
             cur_io->start_time = cur_time;
@@ -158,12 +155,10 @@ int main(int argc, char **argv) {
             if (move == 0)
                 cur_time--;
 
-
             sum.total_movement += move;
             sum.total_turn += turn;
             sum.total_wait += wait;
             sum.io_count++;
-
 
         }
 
@@ -173,15 +168,6 @@ int main(int argc, char **argv) {
     sum.avg_turnaround = sum.total_turn / (double) sum.io_count;
     sum.avg_waittime = sum.total_wait / (double) sum.io_count;
 
-
-
-
-
-    //cout << "Hello, Worlddd!" << std::endl;
-
-
-//    for (int i = 0; i < token_list.size() - 1; i = i + 2)
-//        cout << token_list[i] << " " << token_list[i + 1] << '\n';
 
     print_opstats(op_list);
     print_sum(sum);

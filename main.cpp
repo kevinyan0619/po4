@@ -65,7 +65,7 @@ int main(int argc, char **argv) {
                     sched = new FLOOK();
                 } else {
                     fprintf(stderr, "Unknown argument for option -%c.\n", c);
-                    abort();
+                    exit(1);
                 }
                 break;
             case '?':
@@ -80,7 +80,6 @@ int main(int argc, char **argv) {
                 exit(1);
         }
     }
-
 
 //    for (int i = 0; i < op_list.size(); i++)
 //        cout << op_list[i]->op_num << " " << op_list[i]->arrival_time << " " << op_list[i]->track << '\n';
@@ -114,8 +113,6 @@ int main(int argc, char **argv) {
             // cout << cur_time << " " << op_list[future_io]->op_num << " add " << op_list[future_io]->track << '\n';
 
             future_io++;
-
-
         }
 
         // io finished

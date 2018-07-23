@@ -58,34 +58,3 @@ IOop *SSTF::get_io(int trk) {
     io_queue.erase(io_queue.begin() + min_index);
     return op;
 }
-//    for (itr = io_queue.begin(); itr != io_queue.end(); itr++) {
-//        int cur_dis = abs((*itr)->track - trk);
-//
-//        if (cur_dis < dis) {
-//            dis = cur_dis;
-//            itr_ss = itr;
-//        }
-//    }
-//
-//    IOop *op = *itr_ss;
-//    io_queue.erase(itr_ss);
-//    return op;
-////}
-
-
-//IOop *SSTF::get_io(int trk) {
-//    if (io_queue.empty())
-//        return nullptr;
-//
-//    auto it = min_element(
-//            io_queue.begin(),
-//            io_queue.end(),
-//            [trk](const IOop* a, const IOop* b)
-//            { return abs(a->track - trk) < abs(b->track - trk); }
-//    );
-//    IOop* tmp = *it;
-//    io_queue.erase(it);
-//
-//    return tmp;
-//}
-

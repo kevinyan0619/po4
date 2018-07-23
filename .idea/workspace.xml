@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f16a037-478e-44f6-a252-ca0569fc52cb" name="Default" comment="" />
+    <list default="true" id="1f16a037-478e-44f6-a252-ca0569fc52cb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSTF.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SSTF.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +28,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.41516244">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="166">
@@ -70,11 +73,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="fileReader.cpp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="fileReader.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/fileReader.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+                <state relative-caret-position="300">
+                  <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -82,8 +85,11 @@
           <file leaf-file-name="SSTF.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SSTF.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+                <state relative-caret-position="19">
+                  <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#87#107#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -101,7 +107,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="FIFO.h" pinned="false" current-in-tab="true">
+          <file leaf-file-name="FIFO.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/FIFO.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
@@ -113,11 +119,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SSTF.cpp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SSTF.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SSTF.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
-                  <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+                <state relative-caret-position="315">
+                  <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
                   <folding>
                     <element signature="e#46#63#0" expanded="true" />
                   </folding>
@@ -191,6 +197,9 @@
       <find>stoi</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -208,8 +217,8 @@
         <option value="$PROJECT_DIR$/CLOOK.cpp" />
         <option value="$PROJECT_DIR$/LOOK.cpp" />
         <option value="$PROJECT_DIR$/FLOOK.cpp" />
-        <option value="$PROJECT_DIR$/SSTF.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/SSTF.cpp" />
       </list>
     </option>
   </component>
@@ -223,11 +232,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="65" />
+    <option name="x" value="73" />
+    <option name="y" value="23" />
     <option name="width" value="1838" />
     <option name="height" value="976" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Problems" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -303,15 +313,15 @@
       <workItem from="1532264067043" duration="6715000" />
       <workItem from="1532276398958" duration="536000" />
       <workItem from="1532277800093" duration="99000" />
-      <workItem from="1532311635955" duration="7831000" />
+      <workItem from="1532311635955" duration="8197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40074000" />
+    <option name="totallyTimeSpent" value="40440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="504" width="1838" height="976" extended-state="0" />
+    <frame x="73" y="23" width="1838" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.095756255" />
@@ -319,10 +329,10 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32705098" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3946785" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3946785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3248337" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991131" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -635,24 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fileReader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sum_info.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSTF.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -723,16 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSTF.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="e#46#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CLOOK.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -760,6 +746,33 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSTF.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#87#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSTF.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileReader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>

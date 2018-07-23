@@ -113,7 +113,7 @@ int main(int argc, char **argv) {
         if (future_io < op_list.size() && (op_list[future_io])->arrival_time == cur_time) {
             sched->add_io(op_list[future_io]);
 
-           // cout << cur_time << " " << op_list[future_io]->op_num << " add " << op_list[future_io]->track << '\n';
+            // cout << cur_time << " " << op_list[future_io]->op_num << " add " << op_list[future_io]->track << '\n';
 
             future_io++;
 
@@ -124,7 +124,7 @@ int main(int argc, char **argv) {
         if (cur_io != nullptr && (cur_io->end_time) == cur_time) {
             cur_track = cur_io->track;
 
-           // cout << cur_time << " " << cur_io->op_num << " finish " << cur_io->end_time - cur_io->arrival_time << '\n';
+            // cout << cur_time << " " << cur_io->op_num << " finish " << cur_io->end_time - cur_io->arrival_time << '\n';
             cur_io = nullptr;
         }
 
